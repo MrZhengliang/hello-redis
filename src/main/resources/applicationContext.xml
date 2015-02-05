@@ -20,10 +20,13 @@
 	</bean>
 	
 	<bean id="connectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
-		<property name="hostName" value="192.168.137.126"/>
+		<property name="hostName" value="172.36.0.16"/>
+		<property name="port" value="6479"/>
+		<property name="poolConfig" ref="poolConfig"/>
+		<!-- <property name="hostName" value="192.168.137.126"/>
 		<property name="password" value="foobared"/>
 		<property name="port" value="6379"/>
-		<property name="poolConfig" ref="poolConfig"/>
+		<property name="poolConfig" ref="poolConfig"/> -->
 	</bean>
 	
 	<bean id="redisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate">
