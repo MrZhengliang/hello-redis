@@ -9,9 +9,6 @@ import com.snail.entity.Account;
  * descrption:
  * </p>
  * 
- * @author fuzl
- * @date 2015年2月6日
- * @Copyright 2015 Snail Soft, Inc. All rights reserved.
  */
 public class AccountService {
 
