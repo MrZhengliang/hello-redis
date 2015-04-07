@@ -10,6 +10,11 @@ public class Account {
 	private int id;
 	private String name;
 
+	public Account(String name, String password) {
+		this.name = name;
+		this.password = password;
+	}
+
 	public Account(String name) {
 		this.name = name;
 	}

@@ -34,6 +34,6 @@ public class AccountService {
 
 	private Account getFromDB2(String acctName, String password) {
 		System.out.println("real querying db... username:" + acctName+",password:"+password);
-		return new Account(acctName);
+		return new Account(acctName,password);
 	}
 }
