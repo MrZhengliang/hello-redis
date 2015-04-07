@@ -9,7 +9,7 @@
     
    <cache:annotation-driven />
 
-   <bean id="accountServiceBean" class="com.snail.service.AccountService"/> 
+   <bean id="accountServiceBean" class="com.jeeframe.service.AccountService"/> 
  
     <!-- generic cache manager --> 
    <bean id="cacheManager" 

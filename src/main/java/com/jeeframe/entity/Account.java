@@ -1,4 +1,4 @@
-package com.snail.entity;
+package com.jeeframe.entity;
 
 /**
  * <p>

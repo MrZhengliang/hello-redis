@@ -1,8 +1,8 @@
-package com.snail.service;
+package com.jeeframe.service;
 
 import org.springframework.cache.annotation.Cacheable;
 
-import com.snail.entity.Account;
+import com.jeeframe.entity.Account;
 
 /**
  * <p>

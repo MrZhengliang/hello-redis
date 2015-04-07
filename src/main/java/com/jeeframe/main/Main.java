@@ -1,10 +1,10 @@
-package com.snail.main;
+package com.jeeframe.main;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.snail.entity.Account;
-import com.snail.service.AccountService;
+import com.jeeframe.entity.Account;
+import com.jeeframe.service.AccountService;
 
 /**
  * <p>
